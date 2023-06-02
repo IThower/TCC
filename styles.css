@@ -346,3 +346,36 @@ body {
     color: black;
     font-weight: bold;
 }
+
+.fieldset-contato {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contato {
+    width: 50%;
+}
+
+.btn-contato-form {
+    color: white;
+    background-color: var(--yellow-basic);
+    color: black;
+    padding: 1em 1.5em;
+    border-radius: 20px;
+}
+
+.wrapper-contato-form {
+    margin-top: 4em;
+}
+
+.wrapper-btn-form-contato {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1.5em;
+}
+
+.btn-contato-form:hover {
+    opacity: 0.8;
+}
