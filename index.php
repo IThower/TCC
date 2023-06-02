@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Write a Class</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="login.css">
@@ -15,12 +16,12 @@
 
 <body>
 
-  <?php
-  include('navbar.html');
-  ?>
+    <?php
+    include('navbar.html');
+    ?>
 
-        <section class="section1">
-          <div class="row">
+    <section class="section1">
+        <div class="row">
             <div class="col-md-6 col-sm-12">
 
                 <h1><strong>Plataforma de Conteúdo e Ensino Compartilhado</strong></h1>
@@ -32,65 +33,68 @@
 
             </div>
             <div class="col-md-6 col-sm-12">
-              <img src="https://images.pexels.com/photos/3813345/pexels-photo-3813345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="..." width="100%" />
+                <img src="https://images.pexels.com/photos/3813345/pexels-photo-3813345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="..." width="100%" />
             </div>
         </div>
         <div class="row">
-          <div class="col-md-10">
-            <div class="card-wrapper">
-                <div class="card-hero">
-                    <div class="icon-hero">
-                        <ion-icon name="home-outline" class="icon-100"></ion-icon>
-                    </div>
-                    <p>Acesse seu perfil e reveja conteúdos anteriores ou recomendações com base nos tópicos mais
-                        visualizados e curtidos.</p>
+            <div class="col-md-10">
+                <div class="card-wrapper">
+                    <div class="card-hero">
+                        <div class="icon-hero">
+                            <ion-icon name="home-outline" class="icon-100"></ion-icon>
+                        </div>
+                        <p>Acesse seu perfil e reveja conteúdos anteriores ou recomendações com base nos tópicos mais
+                            visualizados e curtidos.</p>
 
-                </div>
-                <div class="card-hero">
-                    <div class="icon-hero">
-                        <ion-icon name="play-skip-forward-outline" class="icon-100"></ion-icon>
                     </div>
-                    <p>Pare a qualquer momento a sua aula e retome ela no momento que for mais agradável. Entre em
-                        outros
-                        tópicos a qualquer instante sem fechar a sua aula atual.</p>
-                </div>
-                <div class="card-hero">
-                    <div class="icon-hero">
-                        <ion-icon name="heart-outline" class="icon-100"></ion-icon>
+                    <div class="card-hero">
+                        <div class="icon-hero">
+                            <ion-icon name="play-skip-forward-outline" class="icon-100"></ion-icon>
+                        </div>
+                        <p>Pare a qualquer momento a sua aula e retome ela no momento que for mais agradável. Entre em
+                            outros
+                            tópicos a qualquer instante sem fechar a sua aula atual.</p>
                     </div>
-                    <p>Curta e compartilhe aulas com pessoas que tem os mesmos interesses que o seu e deixe seu feedback
-                        nos
-                        tópicos para mostrar que está sabendo do conteúdo que assistiu!</p>
+                    <div class="card-hero">
+                        <div class="icon-hero">
+                            <ion-icon name="heart-outline" class="icon-100"></ion-icon>
+                        </div>
+                        <p>Curta e compartilhe aulas com pessoas que tem os mesmos interesses que o seu e deixe seu
+                            feedback
+                            nos
+                            tópicos para mostrar que está sabendo do conteúdo que assistiu!</p>
 
-                </div>
-                <div class="card-hero">
-                    <div class="icon-hero">
-                        <ion-icon name="person-outline" class="icon-100"></ion-icon>
                     </div>
-                    <p>Aplique seu conhecimento adquirido na sua carreira profissional, educacional, e até mesmo em sua
-                        vida
-                        pessoal!</p>
+                    <div class="card-hero">
+                        <div class="icon-hero">
+                            <ion-icon name="person-outline" class="icon-100"></ion-icon>
+                        </div>
+                        <p>Aplique seu conhecimento adquirido na sua carreira profissional, educacional, e até mesmo em
+                            sua
+                            vida
+                            pessoal!</p>
+                    </div>
                 </div>
             </div>
-          </div>
 
-<div class="col-md-2">
-            <div class="card-right">
-                <h5 class="card-right-h5"><strong>50+</strong></h5>
-                <span>Tópicos de Interesse</span>
-                <div class="avatar-icons-hero">
-                    <img src="/images/1-avatar.jpg" class="avatar-icons-hero-img">
-                    <img src="/images/2-avatar.jpg" class="avatar-icons-hero-img">
-                    <img src="/images/3-avatar.jpg" class="avatar-icons-hero-img">
-                    <img src="/images/4-avatar.jpg" class="avatar-icons-hero-img">
-                    <img src="/images/5-avatar.jpg" class="avatar-icons-hero-img">
+            <div class="col-md-2">
+                <div class="card-right">
+                    <h5 class="card-right-h5"><strong>50+</strong></h5>
+                    <span>Tópicos de Interesse</span>
+                    <div class="avatar-icons-hero">
+                        <img src="/images/1-avatar.jpg" class="avatar-icons-hero-img">
+                        <img src="/images/2-avatar.jpg" class="avatar-icons-hero-img">
+                        <img src="/images/3-avatar.jpg" class="avatar-icons-hero-img">
+                        <img src="/images/4-avatar.jpg" class="avatar-icons-hero-img">
+                        <img src="/images/5-avatar.jpg" class="avatar-icons-hero-img">
+                    </div>
                 </div>
             </div>
         </div>
-      </div>
 
         <div class="header-footer">
-            <span><a href="login.html">1. Crie sua conta</a></span>
+            <span><a href="login.php">1. Crie sua conta</a></span>
             <span>2. Escolha seus Interesses</span>
             <span>3. Acesse as Aulas</span>
             <span class="active-span">4. Aprenda Rápido</span>
@@ -101,13 +105,13 @@
                 <a href="#"><ion-icon name="logo-facebook"></a></ion-icon>
             </div>
         </div>
-      </section>
+    </section>
 
 
     <section class="section2">
         <div class="row">
             <div class="col-md-12">
-                    <h1>Um novo universo de possibilidades, construído por nós, para nós.</h1>
+                <h1>Um novo universo de possibilidades, construído por nós, para nós.</h1>
                 <p class="main-section-p">Write a class é um ecossistema de inovações criativas para criadores de
                     conteúdos e alunos.In elementis mé pra quem é amistosis quis leo.Delegadis gente finis, bibendum
                     egestas augue arcu ut est.Diuretics paradis num copo é motivis de denguis.A ordem dos tratores não

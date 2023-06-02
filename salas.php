@@ -9,7 +9,6 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="login.css">
 
 
 </head>
@@ -19,44 +18,6 @@
     <?php
     include('navbar.html');
     ?>
-
-
-
-
-    <section class="section3">
-        <div class="form-box">
-            <div class="form-value">
-                <form action="">
-                    <center>
-                        <h2>Login</h2>
-                    </center>
-                    <div class="inputbox">
-                        <ion-icon name="mail-outline"></ion-icon>
-                        <input type="email" required>
-                        <label for="">Email</label>
-                    </div>
-                    <div class="inputbox">
-                        <ion-icon name="lock-closed-outline"></ion-icon>
-                        <input type="password" required>
-                        <label for="">Senha</label>
-                    </div>
-                    <div class="forget">
-                        <label for=""><a href="#">Esqueci minha senha</a></label>
-
-                    </div>
-                    <button>Log in</button>
-                    <div class="register">
-                        <p>Não tem uma conta? <a href="#">Registre-se</a></p>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
 
 
 
