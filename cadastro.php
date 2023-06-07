@@ -28,7 +28,7 @@
             <div class="form-value">
                 <form action="">
                     <center>
-                        <h2>Login</h2>
+                        <h2>Cadastre-se!</h2>
                     </center>
                     <div class="inputbox">
                         <ion-icon name="mail-outline"></ion-icon>
@@ -40,13 +40,18 @@
                         <input type="password" required>
                         <label for="">Senha</label>
                     </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required>
+                        <label for="">Confirar Senha</label>
+                    </div>
                     <div class="forget">
                         <label for=""><a href="#">Esqueci minha senha</a></label>
 
                     </div>
                     <button>Log in</button>
                     <div class="register">
-                        <p>Não tem uma conta? <a href="cadastro.php">Registre-se</a></p>
+                        <p>Não tem uma conta? <a href="#">Registre-se</a></p>
                     </div>
                 </form>
             </div>

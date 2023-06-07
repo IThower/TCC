@@ -20,17 +20,19 @@
     include('navbar.html');
     ?>
 
+    <div id="preloader">
+        <div class="preloader-square">
+        </div>
+    </div>
+
     <section class="section1">
         <div class="row">
             <div class="col-md-6 col-sm-12">
-
                 <h1><strong>Plataforma de Conteúdo e Ensino Compartilhado</strong></h1>
                 <h2 class="yellow-var">Comece agora, Aluno</h2>
-                <p>Acesse os conteúdos educacionais que mais te interessem e receba as notificações dos criadores de
-                    conteúdos que mais te agradam.</p>
-
-                <p>Aprenda sem interrupções em uma plataforma simples e gratuita</p>
-
+                <p class="main-p">Acesse os conteúdos educacionais que mais te interessem e receba as notificações dos
+                    criadores de
+                    conteúdos que mais te agradam. Aprenda sem interrupções em uma plataforma simples e gratuita</p>
             </div>
             <div class="col-md-6 col-sm-12">
                 <img src="https://images.pexels.com/photos/3813345/pexels-photo-3813345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -83,15 +85,16 @@
                     <h5 class="card-right-h5"><strong>50+</strong></h5>
                     <span>Tópicos de Interesse</span>
                     <div class="avatar-icons-hero">
-                        <img src="/images/1-avatar.jpg" class="avatar-icons-hero-img">
-                        <img src="/images/2-avatar.jpg" class="avatar-icons-hero-img">
-                        <img src="/images/3-avatar.jpg" class="avatar-icons-hero-img">
-                        <img src="/images/4-avatar.jpg" class="avatar-icons-hero-img">
-                        <img src="/images/5-avatar.jpg" class="avatar-icons-hero-img">
+                        <img src="images/1-avatar.jpg" class="avatar-icons-hero-img">
+                        <img src="images/2-avatar.jpg" class="avatar-icons-hero-img">
+                        <img src="images/3-avatar.jpg" class="avatar-icons-hero-img">
+                        <img src="images/4-avatar.jpg" class="avatar-icons-hero-img">
+                        <img src="images/5-avatar.jpg" class="avatar-icons-hero-img">
                     </div>
                 </div>
             </div>
         </div>
+
 
         <div class="header-footer">
             <span><a href="login.php">1. Crie sua conta</a></span>
