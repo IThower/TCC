@@ -46,7 +46,7 @@
                     </div>
                     <button>Log in</button>
                     <div class="register">
-                        <p>Não tem uma conta? <a href="cadastro.php">Registre-se</a></p>
+                        <p>Não tem uma conta? <a href="dashboard.html">Registre-se</a></p>
                     </div>
                 </form>
             </div>

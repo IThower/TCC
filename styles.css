@@ -6,11 +6,11 @@
     --yellow-basic: rgb(254, 199, 1);
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif;
-}
+    font-family: 'poppins',sans-serif;
+  }
 
 body {
     background-color: var(--main-bg-color);
@@ -18,11 +18,15 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif;
+    font-family: 'poppins',sans-serif;
+}
+
+p {
+  color: #fff;
 }
 
 .row {
-    padding-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 
@@ -33,6 +37,11 @@ body {
 /* --------------------------------------------------------------- */
 /* Header */
 
+.main-header {
+    background-color: var(--main-bg-color)!important;
+    height: 10vh;
+    margin: 0 3em;
+}
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.3em;
@@ -40,34 +49,34 @@ body {
 }
 
 li a {
-    color: white !important;
+  color: white!important;
 }
 
 li a:active {
-    color: var(--main-bg-color) !important;
+  color: var(--main-bg-color)!important;
 }
 
 li a:hover {
-    color: var(--yellow-basic) !important;
+  color: var(--yellow-basic)!important;
 }
 
 .active {
     background-color: rgba(254, 199, 1, 255);
-    color: var(--main-bg-color) !important;
+    color: var(--main-bg-color)!important;
     border-radius: 50px;
 }
 
 .active:hover {
-    color: var(--main-bg-color) !important;
+  color: var(--main-bg-color)!important;
 }
 
 .user-wrapper .nav-link {
-    color: #fff;
-    padding-top: 0.45em;
+  color: #fff;
+  padding-top: 0.45em;
 }
 
 .user-wrapper .nav-link:hover {
-    color: var(--yellow-basic) !important;
+  color: var(--yellow-basic)!important;
 }
 
 .search-bar {
@@ -81,82 +90,76 @@ li a:hover {
 }
 
 .btn {
-    border-radius: 50px;
-    border-color: var(--yellow-basic);
-    background-color: rgba(188, 188, 191, 0) !important;
-    color: var(--yellow-basic) !important;
+  border-radius: 50px;
+  border-color: var(--yellow-basic);
+  background-color: rgba(188, 188, 191, 0)!important;
+  color: var(--yellow-basic)!important;
 }
 
 .btn:hover {
-    border-color: var(--yellow-basic);
-    background-color: var(--yellow-basic) !important;
-    color: var(--main-bg-color) !important;
+  border-color: var(--yellow-basic);
+  background-color: var(--yellow-basic)!important;
+  color: var(--main-bg-color)!important;
 }
 
 .card-hero p {
-    color: var(--main-bg-color);
+  color: var(--main-bg-color)!important;
+}
+
+.card p {
+  color: #fff;
+  text-align: justify;
+  font-size: 1em;
 }
 
 /* Fim do Header */
 /* --------------------------------------------------------------- */
 .section1 {
-    padding-top: 25px;
-    padding-left: 90px;
-    padding-right: 90px;
-    margin-bottom: 50px;
-    height: 90vh;
+  padding-top: 25px;
+  padding-left: 90px;
+  padding-right: 90px;
+  margin-bottom: 50px;
+  height: 90vh;
 }
 
-
-.main-p {
-    color: white;
+.section1 p {
+  color: #fff;
+  text-align: justify;
 }
 
-.section1 {
-    color: white;
+.section1 h1 {
+  color: #fff;
 }
-
-.sticky-nav {
-    position: sticky;
-    background-color: var(--main-bg-color) !important;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: var(--main-bg-color);
-    margin: 0;
-    padding: 0 2em;
-
-}
-
 
 .section2 {
-    padding-top: 50px;
-    padding-bottom: 25px;
-    padding-left: 30vw;
-    padding-right: 30vw;
-    margin-bottom: 50px;
-    margin-top: 100px;
-    min-height: 60vh !important;
-    align-content: center;
-    background-color: var(--yellow-basic);
+  padding-top: 50px;
+  padding-bottom: 25px;
+  padding-left: 30vw;
+  padding-right: 30vw;
+  margin-bottom: 50px;
+  min-height: 50vh!important;
+  align-content: center;
+  background-color: var(--yellow-basic);
 }
 
-.section2 h1 p {
+.section2 h1,p {
     text-align: center;
     color: var(--main-bg-color);
     padding-bottom: 0.5em;
 }
 
 .imglogo {
-    width: 200px;
+    width: 120px;
+    margin-right: 20px;
 }
 
-h1 {
+
+
+
+h1{
     font-size: 4em;
+    color: #fff;
 }
-
 .gap-ul {
     gap: 40px;
 }
@@ -182,10 +185,11 @@ h1 {
     padding: 2em 1em 0;
 }
 
-@media (max-width: 765px) {
-    .card-wrapper {
-        display: block;
-    }
+@media (max-width: 765px)
+{
+  .card-wrapper {
+    display: block;
+   }
 }
 
 .card-hero {
@@ -392,14 +396,14 @@ h1 {
     color: var(--main-bg-color);
     background-color: rgba(50, 52, 61, 0);
     border-radius: 20px;
-    height: 60px !important;
+    height: 60px!important;
     margin-top: 25px;
 }
 
 .main-section-btn:hover {
-    border: 1px solid var(--main-bg-color);
-    color: var(--yellow-basic);
-    background-color: var(--main-bg-color);
+  border: 1px solid var(--main-bg-color);
+  color: var(--yellow-basic);
+  background-color: var(--main-bg-color);
 }
 
 .main-section-left-p {
@@ -430,35 +434,4 @@ h1 {
     width: 100%;
     color: black;
     font-weight: bold;
-}
-
-#preloader {
-    background-color: var(--main-bg-color);
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-}
-
-#preloader .preloader-square {
-    background-color: yellow;
-    width: 100vw;
-    height: 100vh;
-    animation: preloader-anim 5s infinite;
-
-}
-
-@keyframes preloader-anim {
-    0% {
-        transform: translateY(-100%);
-    }
-
-    100% {
-        transform: translateY(100%);
-    }
 }
