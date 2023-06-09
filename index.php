@@ -20,19 +20,17 @@
     include('navbar.html');
     ?>
 
-    <div id="preloader">
-        <div class="preloader-square">
-        </div>
-    </div>
-
     <section class="section1">
         <div class="row">
             <div class="col-md-6 col-sm-12">
+
                 <h1><strong>Plataforma de Conteúdo e Ensino Compartilhado</strong></h1>
                 <h2 class="yellow-var">Comece agora, Aluno</h2>
-                <p class="main-p">Acesse os conteúdos educacionais que mais te interessem e receba as notificações dos
-                    criadores de
-                    conteúdos que mais te agradam. Aprenda sem interrupções em uma plataforma simples e gratuita</p>
+                <p>Acesse os conteúdos educacionais que mais te interessem e receba as notificações dos criadores de
+                    conteúdos que mais te agradam.</p>
+
+                <p>Aprenda sem interrupções em uma plataforma simples e gratuita</p>
+
             </div>
             <div class="col-md-6 col-sm-12">
                 <img src="https://images.pexels.com/photos/3813345/pexels-photo-3813345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -95,7 +93,6 @@
             </div>
         </div>
 
-
         <div class="header-footer">
             <span><a href="login.php">1. Crie sua conta</a></span>
             <span>2. Escolha seus Interesses</span>
@@ -115,7 +112,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h1>Um novo universo de possibilidades, construído por nós, para nós.</h1>
-                <p class="main-section-p">Write a class é um ecossistema de inovações criativas para criadores de
+                <p>Write a class é um ecossistema de inovações criativas para criadores de
                     conteúdos e alunos.In elementis mé pra quem é amistosis quis leo.Delegadis gente finis, bibendum
                     egestas augue arcu ut est.Diuretics paradis num copo é motivis de denguis.A ordem dos tratores não
                     altera o pão duris.</p>
@@ -148,7 +145,7 @@
                 <img src="images/card-3.avif" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Estude com a gente!</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                    <p>Some quick example text to build on the card title and make up the bulk of
                         the card's content.</p>
                     <a href="#" class="btn btn-primary btn-card-section">Go somewhere</a>
                 </div>
